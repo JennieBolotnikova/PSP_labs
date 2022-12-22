@@ -1,0 +1,15 @@
+﻿  Server.cpp
+  ServerTCP.cpp
+E:\studies\4\ПСП\ЛАБ_1\Lab1\Server\ServerTCP.cpp(85,65): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_accept в функции "public: class std::thread * __cdecl Server::listenClients(double,double)" (?listenClients@Server@@QEAAPEAVthread@std@@NN@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_bind в функции "public: __cdecl Server::Server(int,int)" (??0Server@@QEAA@HH@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_closesocket в функции "public: __cdecl Server::~Server(void)" (??1Server@@QEAA@XZ).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_htons в функции "public: __cdecl Server::Server(int,int)" (??0Server@@QEAA@HH@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_listen в функции "public: class std::thread * __cdecl Server::listenClients(double,double)" (?listenClients@Server@@QEAAPEAVthread@std@@NN@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_recv в функции "void __cdecl ProcessingClients(unsigned __int64,int,int,int *,double,double,double *)" (?ProcessingClients@@YAX_KHHPEAHNNPEAN@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_send в функции "void __cdecl ProcessingClients(unsigned __int64,int,int,int *,double,double,double *)" (?ProcessingClients@@YAX_KHHPEAHNNPEAN@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_socket в функции "public: __cdecl Server::Server(int,int)" (??0Server@@QEAA@HH@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_WSAStartup в функции "public: __cdecl Server::Server(int,int)" (??0Server@@QEAA@HH@Z).
+ServerTCP.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_WSACleanup в функции "public: __cdecl Server::Server(int,int)" (??0Server@@QEAA@HH@Z).
+E:\studies\4\ПСП\ЛАБ_1\Server\x64\Debug\Server.exe : fatal error LNK1120: неразрешенных внешних элементов: 10
