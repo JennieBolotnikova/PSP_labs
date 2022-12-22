@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab56</title>
+    <!-- <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        * {
+            color: #222222;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        input {
+            padding: 0.7rem 1.8rem;
+            outline: none;
+            border: 1px solid #e5e5e5;
+            font-size: 1rem;
+            width: 42%;
+        }
+
+        button {
+            width: 20%;
+            padding: 0.7rem 1.8rem;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 1rem;
+            letter-spacing: 0.2rem;
+            background: green;
+            border: 1px solid green;
+            transition: .15s ease-in-out;
+        }
+        button:hover {
+            background: green;
+        }
+        label {
+            display: block;
+            color: #CCCCCC;
+            font-weight: 900;
+        }       
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+        }
+
+        main section {
+            display: flex;
+            flex-direction: column;
+            margin: 0 32px;
+        }
+        main section > * {
+            margin: 1rem 0 0 0;
+        }
+        main section > div > *:not(:first-child) {
+            margin: 0.5rem 0 0 0;
+        }
+        main section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        main section h3 {
+            font-size: 2rem;
+            color: #76CDD8;
+            font-weight: 900;
+        }
+        main section h4 {
+            font-size: 1.5rem;
+            color: #76CDD8;
+        }
+        main section output {
+            color: red;
+            font-weight: 900;
+            word-break: break-all;
+        }
+        main section img {
+            align-self: center;
+        }
+
+        
+   
+    </style>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <label for="task1Input">Текст:</label>
+                <input type="text" name="textInput" id="textInput" value="mail mail evgenia.bolotnickowa@yandex.ru mail evgeni.a@gmail.com mail jennie@mail.ru mail mail">
+
+            </div>
+            <button id="sendTextButton">Проверить</button>
+            <p>Найденные  email:</p>
+            <p><output id="emailsOutput"></output></p>
+        </section>
+    </main>
+</body>
+</html>
