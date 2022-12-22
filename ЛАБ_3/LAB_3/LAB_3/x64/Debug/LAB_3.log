@@ -1,0 +1,4 @@
+﻿  Client.cpp
+E:\studies\4\ПСП\ЛАБ_3\LAB_3\LAB_3\Client.cpp(67,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\studies\4\ПСП\ЛАБ_3\LAB_3\LAB_3\Client.cpp(69,20): warning C4101: s2: неиспользованная локальная переменная
+  LAB_3.vcxproj -> E:\studies\4\ПСП\ЛАБ_3\LAB_3\x64\Debug\Client.exe
