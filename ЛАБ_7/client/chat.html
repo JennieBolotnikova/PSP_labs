@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <title>Chat</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div >
+            <h1>chat</h1>
+            <ul id="chat"></ul>
+            <div id="message_container">
+                <input id="name" type="text" placeholder="Your name">
+                <input id="msg" type="text" placeholder="Your message">
+                <button id="send">Send</button>
+            </div>
+          
+        </div>
+
+        <script>
+   
+            const socket = new WebSocket('ws://127.0.0.1:8000/chat');
+            const chat = document.getElementById('chat');
+            const msg = document.getElementById('msg');
+            const name = document.getElementById('name');
+            const conteiner = document.getElementById('message_container')
+            const botton = document.getElementById('send')
+           
+            const writeLine = text => {
+                const line = document.createElement('li');
+                line.innerHTML = `<p>${text}</p>`;
+                chat.appendChild(line);
+            };
+            const writeLineConect = text => {
+                const line = document.createElement('div');
+                line.innerHTML = `<h2>${text}</h2>`;
+                chat.appendChild(line);
+            };
+            socket.onopen = () => {
+                writeLineConect('connected');
+            };
+            socket.onclose = () => {
+                writeLineConect('closed');
+            };
+            socket.onmessage = event => {
+                writeLine(event.data);
+            };
+            botton.addEventListener('click', function(e) {
+              e.preventDefault();
+              if(msg.value && name.value){
+                    const s = name.value + ": "+ msg.value;
+                    msg.value = '';
+                    writeLine(s);
+                    socket.send(s);
+                }
+            });
+        </script>
+      </body>
+</html>

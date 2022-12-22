@@ -1,0 +1,17 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "fs": "0.0.1-security",
+    "os": "^0.1.1",
+    "websocket": "^1.0.28"
+  }
+}
