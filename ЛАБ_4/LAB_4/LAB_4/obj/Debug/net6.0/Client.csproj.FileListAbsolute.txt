@@ -1,0 +1,15 @@
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\bin\Debug\net6.0\Client.exe
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\bin\Debug\net6.0\Client.deps.json
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\bin\Debug\net6.0\Client.runtimeconfig.json
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\bin\Debug\net6.0\Client.dll
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\bin\Debug\net6.0\Client.pdb
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.AssemblyInfo.cs
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.dll
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\refint\Client.dll
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.pdb
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\Client.genruntimeconfig.cache
+E:\studies\4\ПСП\ЛАБ_4\LAB_4\LAB_4\obj\Debug\net6.0\ref\Client.dll
